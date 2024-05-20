@@ -1,0 +1,6 @@
+﻿services:
+  aspdotnet-pipeline:
+    image: aspdotnet-pipeline
+    build:
+      context: .
+      dockerfile: aspdotnet-pipeline/Dockerfile

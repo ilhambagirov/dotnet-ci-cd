@@ -1,0 +1,6 @@
+@aspdotnet_pipeline_HostAddress = http://localhost:5003
+
+GET {{aspdotnet_pipeline_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
