@@ -1,6 +1,8 @@
 ﻿services:
   aspdotnet-pipeline:
     image: aspdotnet-pipeline
+    port:
+      - 5004:5003
     build:
       context: .
       dockerfile: aspdotnet-pipeline/Dockerfile
